@@ -28,6 +28,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 new TransTask(MainActivity.this).execute(url);
                 Log.e("TEST","test");
+                Log.e("TEST","test");
+                Log.e("TEST","test");
             }
         });
     }
