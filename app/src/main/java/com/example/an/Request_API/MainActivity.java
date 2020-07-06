@@ -2,6 +2,7 @@ package com.example.an.Request_API;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
@@ -26,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 new TransTask(MainActivity.this).execute(url);
+                Log.e("TEST","test");
             }
         });
     }
